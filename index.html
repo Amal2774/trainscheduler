@@ -13,7 +13,55 @@
 
 </head>
 
-<body>
+<body class="body-background">
+    
+    <div class="card" style="width: 55rem;">
+        <div class="card-header">
+            Current Train Schedule
+        </div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">Train Name</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Frequency</th>
+                <th scope="col">Next Arrival</th>
+                <th scope="col">Minutes Away</th>
+            </tr>
+            </thead>
+            <tbody class="table-striped">
+            <tr>
+                <th scope="row"></th>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="card" style="width: 55rem;">
+            <div class="card-header">
+                Add Train
+            </div>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Train Name</label>
+                <input type="text" class="form-control" id="trainNameInput">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Destination</label>
+                <input type="text" class="form-control" id="destinationInput">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">First Train Time (hh:mm)</label>
+                <input type="password" class="form-control" id="trainTimeInput">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Frequency (minutes)</label>
+                <input type="number" class="form-control" id="frequencyMinInput">
+            </div>
+        
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
 
 </body>
 
