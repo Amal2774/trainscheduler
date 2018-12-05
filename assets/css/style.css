@@ -2,7 +2,7 @@
     background-image: url("../images/grandCentral.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: .85;
+    opacity: .90;
 };
 
 .cards {
@@ -11,9 +11,9 @@
     color: black;
     background-color: antiquewhite;
     opacity: .5;
-    border-color: black
+    border-color: black;
 };
 
 .submitButton {
     color: #A0522D;
-}
+};
