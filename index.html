@@ -43,7 +43,7 @@
             </div>
         <form>
             <div class="form-group">
-                <label for="exampleInputEmail1">Train Name</label>
+                <label>Train Name</label>
                 <input type="text" class="form-control" id="trainNameInput">
             </div>
             <div class="form-group">
@@ -51,18 +51,21 @@
                 <input type="text" class="form-control" id="destinationInput">
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">First Train Time (hh:mm)</label>
-                <input type="password" class="form-control" id="trainTimeInput">
+                <label>First Train Time (hh:mm)</label>
+                <input type="time" class="form-control" id="trainTimeInput">
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Frequency (minutes)</label>
+                <label>Frequency (minutes)</label>
                 <input type="number" class="form-control" id="frequencyMinInput">
             </div>
         
-            <button type="submit" class="btn submitButton">Submit</button>
+            <button type="submit" class="btn submitButton" id="submitBtn">Submit</button>
         </form>
     </div>
 
 </body>
 
 </html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js" crossorigin="anonymous"></script>
+<script src="./assets/javascript/app.js"></script>
